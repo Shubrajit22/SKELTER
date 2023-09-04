@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  
+  }
+ 
+ body{
+    width:100%;
+    height:100%;
+    font-family: 'Courgette', cursive;
+
+ }
+ #main{
+   width:100vw;
+   height:100vh;
+    background-image:url('back.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+
+ }
+ #coming{
+   margin-top: 20px;
+   color:#fff;
+    height:10px; 
+   /* height:50%; */
+   text-shadow: 2px;
+   font-weight: 2px;
+   font-size:50px;
+   animation-name: coming;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+ }
+ @keyframes coming {
+   from {color: red;}
+   to {color: yellow;;}
+  
+   
+ }
+ #text{
+   margin-top: 50px;
+   color:#fff;
+   height:10%;
+   text-shadow: 2px;
+   font-weight: 2px;
+   font-size:30px;
+
+ }
+ img{
+    margin:5px;
+   height:270px;
+   width:270px; 
+ }
+button{
+   margin:15px;
+   background-color: blue;
+   border:2px solid gray;
+   border-radius: 14px;
+   height:50px;
+   color:#eeeff3;
+   width:100px;
+   text-align: center;
+   box-shadow: 2px 2px 2px #fff;
+ }
+ #email{
+    width:500px;
+   height:30px; 
+   border-radius: 15px;
+ }
+ button:hover{
+   transform:20px;
+ cursor:pointer;
+   
+ }
+  
+ 
+ 
+     
